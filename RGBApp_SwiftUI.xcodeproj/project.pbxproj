@@ -11,6 +11,7 @@
 		51532CB627BEE42300DEE6F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51532CB527BEE42300DEE6F0 /* ContentView.swift */; };
 		51532CB827BEE42400DEE6F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51532CB727BEE42400DEE6F0 /* Assets.xcassets */; };
 		51532CBB27BEE42400DEE6F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51532CBA27BEE42400DEE6F0 /* Preview Assets.xcassets */; };
+		51532CC227BEE9B800DEE6F0 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51532CC127BEE9B800DEE6F0 /* ColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		51532CB527BEE42300DEE6F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		51532CB727BEE42400DEE6F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51532CBA27BEE42400DEE6F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51532CC127BEE9B800DEE6F0 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				51532CB327BEE42300DEE6F0 /* RGBApp_SwiftUIApp.swift */,
 				51532CB527BEE42300DEE6F0 /* ContentView.swift */,
+				51532CC127BEE9B800DEE6F0 /* ColorView.swift */,
 				51532CB727BEE42400DEE6F0 /* Assets.xcassets */,
 				51532CB927BEE42400DEE6F0 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51532CC227BEE9B800DEE6F0 /* ColorView.swift in Sources */,
 				51532CB627BEE42300DEE6F0 /* ContentView.swift in Sources */,
 				51532CB427BEE42300DEE6F0 /* RGBApp_SwiftUIApp.swift in Sources */,
 			);
