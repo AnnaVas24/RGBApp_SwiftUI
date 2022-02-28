@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ColorView: View {
-    let color: UIColor
+    let red: Double
+    let green: Double
+    let blue: Double
+    
     var body: some View {
-        Color.init(color)
+        Color(red: red / 255, green: green / 255, blue: blue / 255)
             .ignoresSafeArea()
             .frame(width: 350, height: 200)
             .cornerRadius(20)
@@ -21,7 +24,7 @@ struct ColorView: View {
 
 struct ColorView_Previews: PreviewProvider {
     static var previews: some View {
-        ColorView(color: .systemOrange)
+        ColorView(red: 100, green: 100, blue: 100)
             .preferredColorScheme(.dark)
     }
 }
